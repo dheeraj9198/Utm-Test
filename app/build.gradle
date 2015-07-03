@@ -8,8 +8,8 @@ android {
         applicationId "tester.tag.utm.utmtest"
         minSdkVersion 16
         targetSdkVersion 22
-        versionCode 2
-        versionName "1.1"
+        versionCode 3
+        versionName "1.2"
     }
 
     buildTypes {
@@ -48,4 +48,7 @@ dependencies {
     compile 'com.fasterxml.jackson.core:jackson-core:2.5.4'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.5.4'
     compile 'com.fasterxml.jackson.core:jackson-annotations:2.5.4'
+    compile 'org.slf4j:slf4j-api:1.7.7'
+    compile 'com.github.tony19:logback-android-core:1.1.1-2'
+    compile 'com.github.tony19:logback-android-classic:1.1.1-2'
 }
