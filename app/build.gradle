@@ -8,8 +8,8 @@ android {
         applicationId "tester.tag.utm.utmtest"
         minSdkVersion 16
         targetSdkVersion 22
-        versionCode 3
-        versionName "1.2"
+        versionCode 6
+        versionName "1.5"
     }
 
     buildTypes {
